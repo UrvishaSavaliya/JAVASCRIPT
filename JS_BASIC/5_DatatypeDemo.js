@@ -37,3 +37,28 @@ const myFunction = function(){
 console.log(typeof myFunction)
 
 //Assignment all return type list using typeof function
+
+
+//stack and heap which use
+
+//stack (primitive), heap(non-primitive)
+
+let myYoutubeName = "hr@gmail.com";
+let anotherName = myYoutubeName
+
+console.log(anotherName);
+console.log(myYoutubeName);
+
+let user = {
+    email : "user@google.com",
+    upi   :  "user@ybl"
+}
+
+let userTwo = user;
+
+console.log(userTwo);
+
+userTwo.email = "userTwo@gmail.com";
+
+console.log(user.email);
+console.log(userTwo.email);
